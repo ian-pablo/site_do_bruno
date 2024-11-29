@@ -1,0 +1,264 @@
+
+
+header {
+    display: flex;
+    padding-top: 3vh;
+    width: 100%;
+}
+
+
+.menu {
+    display: flex;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: aliceblue;
+    border: none;
+    cursor:  pointer;
+    margin-right: 3%;
+}
+
+.div_header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.menu:hover {
+    box-shadow: (rgb(253, 253, 253) 0px 0px 13px);
+}
+
+.div_menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.5s ease-in-out;
+    padding-top: 60px;
+    z-index: 1;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    animation: borda linear 1.5s infinite;
+     filter: drop-shadow(#ffffff 0px 0px 5px);
+}
+
+.div_menu.collapsed {
+    width: 0;
+}
+
+.div_menu a {
+    margin-bottom: 10px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.4s;
+    background-color: rgba(0, 0, 0, 0);
+    cursor:  pointer;
+}
+
+.div_menu a:hover {
+    
+    background-color: #ffffff;
+    border-radius: 10px;
+    filter: drop-shadow(aliceblue 0 0 3px);
+}
+
+.div_menu .botao_fechar {
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding: 0;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    text-align: center;
+
+}
+/*parte levi*/
+
+
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; 
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    /* background-image: url("fundodetelapginicial.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+}
+nav {
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        position: relative;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(255,255,255,0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+footer {
+    margin-top: 30vh;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+ 
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+
+.card-column {
+    flex: 1; 
+    display:flex;
+    flex-direction: row;
+
+}
+
+.card {
+        flex: 25%;
+        width: 250px; 
+        height: 275px; 
+        background-color: rgba(73, 73, 73, 0.5); 
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 10px 35px;
+        box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1);
+        transition: transform 0.2s; 
+}
+
+a h3{
+    width: 100%;
+    height: 100%;
+}
+
+.card a{
+    text-decoration: none;
+    color:white
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block; 
+    height: 100%; 
+}
+
+.card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #f0f0f0;
+}
+
+.card p {
+    font-size: 0.9em;
+    color: rgb(255, 255, 255);
+}
+#Newell{
+ background-image: url('escudonewll.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 50% 50%;
+ opacity: 0.7;
+}
+#barca{
+    background-image: url('escudobarca.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 0.7;
+   }
+#PSG{
+    background-image: url('escudopsg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 0.7;
+}
+#inter{
+    background-image: url('escudointer.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 0.7;
+}
+ 
+.div_img{
+    display: flex; 
+    width: 100%;
+    background-image:url(fundodetelapginicial.jpg); 
+    height: 800px; 
+    background-size: 90%; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+ 
+}
+.div_imgg{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(0,0,0,0.0) 35%,#000000 90% ),  linear-gradient(to right, rgba(0,0,0,0.0) 35%,#000000 90% ), linear-gradient(to bottom, rgba(0,0,0,0.0) 65%,#000000 100% ), linear-gradient(to top, rgba(0,0,0,0.0) 75%, #000000 100%);
+
+ 
+}
+
+
+@media screen and (max-width: 480px){
+
+
+    .div_img{
+        width: 100%;
+        height: 500px;
+    }
+
+    .card-column{
+        flex-direction: column;
+    }
+
+    .card{
+        margin-left: 75px;
+        height: 150px;
+    }
+    footer{
+        margin-top: 100px;
+        text-align: center;
+        padding-left: 0;
+    }
+}

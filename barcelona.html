@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="barcapgcss.css">
+    <title>Barcelona - Lionel Messi</title>
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("div_menu");
+            if (sidebar.style.width === "250px") {
+                sidebar.style.width = "0";
+            } else {
+                sidebar.style.width = "250px";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="loader"></div>
+        <div class="div_header">
+            <button class="menu" onclick="toggleSidebar()">&#9776;</button>
+            <h2>Sua Chegada</h2>
+        </div>
+    </header>
+    <nav>
+
+        <div id="div_menu" class="div_menu menuEle">
+            <a href="javascript:void(0)" class="botao_fechar menuEle" onclick="toggleSidebar()">×</a>
+            <a href="temporadas.html">Temporadas</a>
+            <a href="index.html">Pagina inicial</a>
+            <a href="selecao.html">Seleção</a>
+            <a href="titulos.html">Títulos</a>
+            <a href="recordes.html">Recordes</a>
+            <a href="familia.html">Família</a>
+
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="div_img">
+            <div class="div_imgg"></div>
+        </div>
+        <div class="container">
+            <div class="escritas">
+                <h2>O Início</h2>
+                <p> A chegada de Lionel Messi ao Barcelona foi um marco que transformou para sempre o clube e o futebol
+                    mundial. Em 2000, com apenas 13 anos, o jovem argentino e sua família tomaram uma decisão ousada:
+                    deixar Rosário, na Argentina, para tentar a sorte na Espanha.</p>
+                <p> Mas havia um problema de saúde que ameaçava seu desenvolvimento como atleta. Diagnosticado com uma
+                    deficiência hormonal que afetava seu crescimento, Messi precisava de um tratamento caro, que o
+                    Newell's não conseguia custear integralmente. Foi então que surgiu o interesse do Barcelona.</p>
+                <p> Carles Rexach, diretor esportivo do Barça na época, ficou encantado ao ver o talento de Messi. Em
+                    uma decisão inusitada, assinou o primeiro contrato com ele em um guardanapo, num restaurante em
+                    Barcelona, comprometendo o clube a cobrir o tratamento do jovem craque</p>
+                <p> Messi ficou conhecido na equipe como parte do time chamado "La Máquina del 87", uma geração
+                    promissora de jogadores nascidos em 1987, que encantava o público pelas habilidades e pelo potencial
+                    em campo.</p>
+                <p> Na La Masia, Messi rapidamente se destacou entre seus colegas, impressionando técnicos e jogadores
+                    por sua habilidade, velocidade e visão de jogo.</p>
+                <p> Apesar da adaptação a um novo país e à distância da família e dos amigos, Messi manteve-se focado e
+                    determinado a alcançar o topo. Em poucos anos, ele se tornou um dos principais jogadores das
+                    categorias de base e logo foi promovido ao time principal.</p>
+            </div>
+            <div class="image">
+                <img src="barcacodigoft.png" alt="Lionel Messi">
+            </div>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xRaDYiHPCLk?si=ebRyo1PsmfkZQtN8"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Barcelona - Lionel Messi</p>
+    </footer>
+</body>
+
+</html>
