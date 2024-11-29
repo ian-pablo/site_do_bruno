@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="psgtempum.css">
+    <title> Psg - Lionel Messi</title>
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("div_menu");
+            if (sidebar.style.width === "250px") {
+                sidebar.style.width = "0";
+            } else {
+                sidebar.style.width = "250px";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="loader"></div>
+        <div class="div_header">
+            <button class="menu" onclick="toggleSidebar()">&#9776;</button>
+            <h2>Primeiras Impressões</h2>
+        </div>
+    </header>
+    <nav>
+
+        <div id="div_menu" class="div_menu menuEle">
+            <a href="javascript:void(0)" class="botao_fechar menuEle" onclick="toggleSidebar()">×</a>
+            <a href="tempdoispsg.html">2022-23</a>
+            <a href="selecao.html">Seleção</a>
+            <a href="titulos.html">Títulos</a>
+            <a href="recordes.html">Recordes</a>
+            <a href="familia.html">Família</a>
+            <a href="index.html">Pagina inicial</a>
+
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="div_img">
+            <div class="div_imgg"></div>
+        </div>
+        <div class="container">
+            <div class="escritas">
+                <h2>Competições e Estatísticas Por Clube</h2>
+                <p> Competições: League 1, Liga dos Campeões, Cope de France</p>
+                <p> Títulos: League 1</p>
+                <p> League 1: 26 jogos , 2152 minutos jogados , 6 gol(s) , 14 assistência(s)</p>
+                <p> Liga dos Campeões: 7 jogos , 630 minutos jogados , 5 gol(s) , 0 assistência(s)</p>
+                <p> Cope de France: 1 jogos , 90 minutos jogados , 0 gol(s) , 0 assistência(s)</p>
+                <p> Total: 34 jogos , 2872 minutos jogados , 11 gol(s) , 14 assistência(s)</p>
+                <p> Destaques: Ganhou a League 1 sendo peça fundamental para o time, já que havia momentos que a equipe
+                    "morria".</p>
+                <p> Foi muito alvo de críticas da torcida junto com seu parceiro de equipe Neymar, pois segundo a
+                    torcida eles estavam sendo dois pesos mortos em campo e não voltavam a marcar</p>
+            </div>
+            <div class="image">
+                <img src="psgtemp01codigoft.png" alt="Lionel Messi">
+            </div>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zjNYKr4awwE?si=HK18wYyKtRBTeWiH"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Paris Saint-Germain - Lionel Messi</p>
+    </footer>
+</body>
+
+</html>

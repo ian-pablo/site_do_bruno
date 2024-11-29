@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="intertempum.css">
+    <title>Inter Miami - Lionel Messi</title>
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("div_menu");
+            if (sidebar.style.width === "250px") {
+                sidebar.style.width = "0";
+            } else {
+                sidebar.style.width = "250px";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="loader"></div>
+        <div class="div_header">
+            <button class="menu" onclick="toggleSidebar()">&#9776;</button>
+            <h2>Primeira Temporada na MLS</h2>
+        </div>
+    </header>
+    <nav>
+
+        <div id="div_menu" class="div_menu menuEle">
+            <a href="javascript:void(0)" class="botao_fechar menuEle" onclick="toggleSidebar()">×</a>
+            <a href="temp.doisinter.html">2024-25</a>
+            <a href="index.html">Pagina inicial</a>
+            <a href="selecao.html">Seleção</a>
+            <a href="titulos.html">Títulos</a>
+            <a href="recordes.html">Recordes</a>
+            <a href="familia.html">Família</a>
+
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="div_img">
+            <div class="div_imgg"></div>
+        </div>
+        <div class="container">
+            <div class="escritas">
+                <h2>Competições e Estatísticas Por Clube</h2>
+                <p> Competições: Ligue 1, Cope de France, Liga dos Campeões, MLS, Leagues Cup</p>
+                <p> Títulos: Leagues Cup</p>
+                <p> U.S. Open Cup: 1 jogos , 120 minutos jogados , 2 gol(s) , 2 assistência(s)</p>
+                <p> MLS: 6 jogos , 372 minutos jogados , 8 gol(s) , 2 assistência(s)</p>
+                <p> Total: 7 jogos , 492 minutos jogados , 10 gol(s) , 4 assistência(s)</p>
+                <p>Destaques: Marcou seu primeiro gol na Liga dos Campeões contra o Panathinaikos.</p>
+
+
+            </div>
+            <div class="image">
+                <img src="intertemp01.png" alt="Lionel Messi">
+            </div>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/W23NKd4wg7Q?si=RxcAeIRfSv4nwsGO"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Inter Miami - Lionel Messi</p>
+    </footer>
+</body>
+
+</html>

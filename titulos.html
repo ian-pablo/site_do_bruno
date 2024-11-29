@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="titulos.css">
+    <title> Prêmios - Lionel Messi</title>
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("div_menu");
+            if (sidebar.style.width === "250px") {
+                sidebar.style.width = "0";
+            } else {
+                sidebar.style.width = "250px";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="loader"></div>
+        <div class="div_header">
+            <button class="menu" onclick="toggleSidebar()">&#9776;</button>
+            <h2> O Maior Campeão De Títulos Da História</h2>
+        </div>
+    </header>
+    <nav>
+
+        <div id="div_menu" class="div_menu menuEle">
+            <a href="javascript:void(0)" class="botao_fechar menuEle" onclick="toggleSidebar()">×</a>
+            <a href="titulosbarca.html">Títulos no Barcelona</a>
+            <a href="titulospsg.html">Títulos no Paris Saint-Germain </a>
+            <a href="titulosinter.html">Títulos no Inter Miami</a>
+            <a href="titulosselecao.html">Títulos na Seleção</a>
+            <a href="titulosindividual.html">Títulos no Individuais</a>
+            <a href="index.html">Pagina inicial</a>
+            <a href="recordes.html">Recordes</a>
+            <a href="familia.html">Família</a>
+
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="div_img">
+            <div class="div_imgg"></div>
+        </div>
+        <div class="container">
+            <div class="escritas">
+                <h2>Seus Títulos em Equipe</h2>
+                <p>44 títulos:</p>
+                <p>10 La Ligas, 7 Copa do Rei, 8 Supercopa da Espanha</p>
+                <p>4 Liga dos Campões da UEFA, 3 Supercopa da UEFA, 3 Mundial de Clubes da FIFA</p>
+                <p>2 Ligue 1, 1 Supercopa da França</p>
+                <p>1 Legues Cup</p>
+                <p>1 Copa do Mundo, 1 Copa América, 1 Finalíssima, 1 Medalha de Ouro nos Jogos Olímpicos, 1 Campeonato
+                    Mundial Sub-20</p>
+                <h2>Seus Títulos Individuais</h2>
+                <p>8 Ballon d'Or, 2 The Best FIFA, 6 Chuteiras de Ouro da Europa, 2 Melhor Jogador da Copa do Mundo,
+                    2 Melhor Jogador da Copa América, 3 Melhor Jogador da UEFA, 2 Prêmio Laureus de Melhor Atleta,
+                    entre outros
+                </p>
+
+            </div>
+            <div class="image">
+                <img src="tituloscodigoft.png" alt="Lionel Messi">
+            </div>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zuD6kyXSmUY?si=g3SklpJ-QZ80N1_-"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Prêmios - Lionel Messi</p>
+    </footer>
+</body>
+
+</html>
