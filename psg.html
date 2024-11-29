@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="psg.css">
+    <title> Psg - Lionel Messi</title>
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("div_menu");
+            if (sidebar.style.width === "250px") {
+                sidebar.style.width = "0";
+            } else {
+                sidebar.style.width = "250px";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="loader"></div>
+        <div class="div_header">
+            <button class="menu" onclick="toggleSidebar()">&#9776;</button>
+            <h2>A Volta Da Dupla</h2>
+        </div>
+    </header>
+    <nav>
+
+        <div id="div_menu" class="div_menu menuEle">
+            <a href="javascript:void(0)" class="botao_fechar menuEle" onclick="toggleSidebar()">×</a>
+            <a href="temporadaspsg.html">Temporadas</a>
+            <a href="index.html">Pagina inicial</a>
+            <a href="selecao.html">Seleção</a>
+            <a href="titulos.html">Títulos</a>
+            <a href="recordes.html">Recordes</a>
+            <a href="familia.html">Família</a>
+
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="div_img">
+            <div class="div_imgg"></div>
+        </div>
+        <div class="container">
+            <div class="escritas">
+                <h2>Sua Chegada</h2>
+                <p> A chegada de Lionel Messi ao Paris Saint-Germain foi muito mal vista por fãs de Cristiano Ronaldo,
+                    que falavam: "Messi virou um aposentado, foi jogar em uma liga fácil". Apesar de não ter uma
+                    passagem muito longa, conseguiu títulos pelo clube e individuais.</p>
+                <p> Mas fãs de futebol em geral viam essa ida com bons olhos, pois veriam a dupla Messi e Neymar
+                    novamente junta, gerando uma expectativa muito grande, ainda mais porque Mbappé faria trio de ataque
+                    com eles.</p>
+                <p> O clube era um dos favoritos para ganhar a Champions League pelo incrível trio de ataque formado,
+                    além de uma defesa excelente com Hakimi, Marquinhos, Sergio Ramos e Nuno Mendes.</p>
+                <p>Só que havia um problema, e esse problema se chamava Mbappé, que era egoísta e briguento, ocasionando
+                    uma rachadura no time. Havia pessoas que estavam ao lado de Mbappé e outras que não estavam.</p>
+                <p> clube deixava ele fazer o que quisesse, pois ele era a "estrela" do time. E ele não aceitava que
+                    outra pessoa tivesse o protagonismo, tanto que o time não foi muito longe em competições. </p>
+            </div>
+            <div class="image">
+                <img src="psgcodigoft.png" alt="Lionel Messi">
+            </div>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ljlj7YFGn3w?si=C_z_nQXoKPtKUy-3"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Paris Saint-Germain - Lionel Messi</p>
+    </footer>
+</body>
+
+</html>

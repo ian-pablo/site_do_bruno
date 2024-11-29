@@ -1,0 +1,200 @@
+header {
+    display: flex;
+    padding-top: 3vh;
+    width: 100%;
+}
+.div_header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+
+.menu {
+    display: flex;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: aliceblue;
+    border: none;
+    cursor:  pointer;
+    margin-right: 3%;
+
+}
+
+.menu:hover {
+    box-shadow: (rgb(253, 253, 253) 0px 0px 13px);
+}
+
+
+.div_menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #07001a;
+    overflow-x: hidden;
+    transition: 0.5s ease-in-out;
+    padding-top: 60px;
+    z-index: 1;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    animation: borda linear 1.5s infinite;
+    filter: drop-shadow(#ffee01 0px 0px 5px);
+}
+
+.div_menu.collapsed {
+    width: 0;
+}
+
+.div_menu a {
+    margin-bottom: 10px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.4s;
+    background-color: rgba(0, 0, 0, 0.0);
+    cursor:  pointer;
+}
+
+.div_menu a:hover {
+    
+    background-color: #353535;
+    border-radius: 10px;
+    filter: drop-shadow(aliceblue 0 0 3px);
+}
+
+.div_menu .botao_fechar {
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding: 0;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    text-align: center;
+
+}
+ /*em cima levi*/
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; 
+    color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /*serve para colocar as divs em espaçamento igual (vi em um video kk)*/
+}
+
+
+
+img {
+    max-width: none; 
+    height: auto;
+    border-radius: 15px;
+    margin-right: 20px; 
+    
+} /*parte de cima img do messi*/
+
+
+
+iframe, video {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    height: 315px;
+    border: none;
+    border-radius: 15px;
+ 
+} /*parte de cima é do video*/
+
+
+
+footer {
+    background-color: #000000; 
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+
+}
+
+
+ /*parte de baixo img fodona*/
+.div_img{
+    display: flex; 
+    width: 100%;
+    background-image:url(fundodetelatemp12.png); 
+    height: 800px; 
+    background-size: 90%; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+ 
+}
+.div_imgg{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(0,0,0,0.0) 35%,#000000 90% ),  linear-gradient(to right, rgba(0,0,0,0.0) 35%,#000000 90% ), linear-gradient(to bottom, rgba(0,0,0,0.0) 65%,#000000 100% ), linear-gradient(to top, rgba(0,0,0,0.0) 75%, #000000 100%);
+
+ 
+}
+
+.escritas{
+    width: 700px;
+
+}
+.image{
+    width: 400px;
+    height: 350px;
+}
+.escritas, image{
+    display: inline-block;
+}
+
+
+
+@media screen and (max-width: 480px){
+    .container{
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+        
+    .escritas{
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    .image{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .image img{ 
+       width:100%;
+       margin: 10px
+    }    
+
+    iframe, video {
+        width: 90%;
+        margin:10px;     
+    } /*parte de cima é do video*/
+   
+
+}

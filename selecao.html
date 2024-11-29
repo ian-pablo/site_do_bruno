@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="selecao.css">
+    <title> Seleção - Lionel Messi</title>
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("div_menu");
+            if (sidebar.style.width === "250px") {
+                sidebar.style.width = "0";
+            } else {
+                sidebar.style.width = "250px";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="loader"></div>
+        <div class="div_header">
+            <button class="menu" onclick="toggleSidebar()">&#9776;</button>
+            <h2> Messi Pela Seleção</h2>
+        </div>
+    </header>
+    <nav>
+
+        <div id="div_menu" class="div_menu menuEle">
+            <a href="javascript:void(0)" class="botao_fechar menuEle" onclick="toggleSidebar()">×</a>
+            <a href="index.html">Pagina inicial</a>
+            <a href="titulos.html">Títulos</a>
+            <a href="recordes.html">Recordes</a>
+            <a href="familia.html">Família</a>
+
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="div_img">
+            <div class="div_imgg"></div>
+        </div>
+        <div class="container">
+            <div class="escritas">
+                <h2>Competições e Estatísticas Por Seleção</h2>
+                <p> Competições: Copa do Mundo, Eliminatórias Copa do Mundo, Copa América, Finalíssima
+                    Intercontinental, Amistosos por Seleção</p>
+                <p> Títulos: Finalíssima Intercontinental, Copa do Mundo, Copa América </p>
+                <p> Copa do Mundo: 26 jogos , 2314 minutos jogados , 13 gol(s) , 8 assistência(s)</p>
+                <p> Eliminatórias Copa do Mundo: 67 jogos , 5611 minutos jogados , 34 gol(s) , 12 assistência(s)</p>
+                <p> Copa América: 39 jogos , 3300 minutos jogados , 14 gol(s) , 18 assistência(s)</p>
+                <p> Finalíssima Intercontinental: 1 jogo , 90 minutos jogados , 0 gol(s) , 23 assistência(s)</p>
+                <p> Amistosos por Seleção: 56 jogos , 4371 minutos jogados , 51 gol(s) , 20 assistência(s)</p>
+                <p> Total: 189 jogos , 15686 minutos jogados , 112 gol(s) , 60 assistência(s)</p>
+                <p> Destaques: Messi foi fundamental em várias campanhas da Argentina. A conquista da Copa América em
+                    2021 foi particularmente importante, pois encerrou um jejum de 28 anos sem títulos para a seleção.
+                </p>
+                <p> Já na Copa do Mundo de 2022, Messi brilhou, marcando 7 gols, incluindo 2 na final, e foi eleito o
+                    Melhor Jogador do Torneio, levando a Argentina ao título após 36 anos.</p>
+
+
+            </div>
+            <div class="image">
+                <img src="selecaocodigoft.png" alt="Lionel Messi">
+            </div>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nvy6Yt2smiA?si=60YJ9t8QLUX2bba7"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Argentina - Lionel Messi</p>
+    </footer>
+</body>
+
+</html>
